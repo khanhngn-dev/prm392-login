@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/instagram_gradient"
-    tools:context=".MainActivity"
+    tools:context=".LoginActivity"
     >
     <RelativeLayout
         android:layout_width="match_parent"
@@ -68,6 +68,7 @@
             app:cornerRadius="4dp"
             app:strokeColor="@color/instagram_button_white"
             app:strokeWidth="1.5dp"
+
             />
         <RelativeLayout
             android:id="@+id/forgot_password_wrapper"
